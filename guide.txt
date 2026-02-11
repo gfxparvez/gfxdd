@@ -1,0 +1,41 @@
+# Guide: How to Run the App in Termux
+
+## Method 1: Python Flask App
+This is the lightweight way to run the backend and templates.
+
+1. Install dependencies:
+   ```bash
+   pkg install python
+   pip install flask
+   ```
+2. Navigate to the app directory:
+   ```bash
+   cd python_app
+   ```
+3. Run the application:
+   ```bash
+   python app.py
+   ```
+4. Access the app:
+   Open your browser and go to `http://localhost:5000`
+
+## Method 2: Full-Stack JavaScript (Node.js)
+This runs the complete modern stack with React and the Vite dev server.
+
+1. Install dependencies:
+   ```bash
+   pkg install nodejs
+   npm install
+   ```
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+3. Access the app:
+   Open your browser and go to `http://localhost:5000`
+
+---
+### Notes for Termux Users:
+- Ensure you have a stable internet connection for the first-time installation.
+- Use `Ctrl+C` to stop the server.
+- If port 5000 is occupied, you might need to check if another process is running or change the port in the configuration files.

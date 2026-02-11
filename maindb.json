@@ -1,0 +1,145 @@
+{
+  "users": [
+    {
+      "email": "gfxdeveloperparvez@gmail.com",
+      "password": "$2b$10$wpVWitXCt.MC3AaXCa1BguWPlkgf8WTivZPF2FaNb0GVxjfRyZWHu",
+      "displayName": "GFX DEVELOPER PARVEZ",
+      "id": "7cc44f28-a86f-438a-98e3-0599b72c4588",
+      "createdAt": "2026-02-09T09:05:06.360Z"
+    }
+  ],
+  "userRoles": [
+    {
+      "id": "0d3e9dc6-25d9-4529-a60b-857c411e4771",
+      "userId": "7cc44f28-a86f-438a-98e3-0599b72c4588",
+      "role": "user"
+    }
+  ],
+  "databases": [
+    {
+      "name": "gfx",
+      "description": "",
+      "userId": "7cc44f28-a86f-438a-98e3-0599b72c4588",
+      "status": "active",
+      "id": "ac5c9253-f365-40e9-b0f7-6d5e04ca3336",
+      "createdAt": "2026-02-09T09:05:16.007Z",
+      "updatedAt": "2026-02-09T09:05:16.007Z"
+    }
+  ],
+  "databaseTables": [
+    {
+      "databaseId": "ac5c9253-f365-40e9-b0f7-6d5e04ca3336",
+      "name": "users",
+      "id": "c585ddf4-1ff6-4d37-841d-f636785d7cdd",
+      "createdAt": "2026-02-09T09:06:18.063Z",
+      "updatedAt": "2026-02-09T09:06:18.063Z"
+    }
+  ],
+  "tableColumns": [
+    {
+      "tableId": "c585ddf4-1ff6-4d37-841d-f636785d7cdd",
+      "name": "id",
+      "dataType": "text",
+      "isNullable": true,
+      "defaultValue": null,
+      "position": 0,
+      "id": "cdb8f68a-8e37-4469-8861-90b5e94ebb81",
+      "createdAt": "2026-02-09T09:06:18.064Z"
+    },
+    {
+      "tableId": "c585ddf4-1ff6-4d37-841d-f636785d7cdd",
+      "name": "username",
+      "dataType": "text",
+      "isNullable": true,
+      "defaultValue": null,
+      "position": 1,
+      "id": "c1b51183-1d0e-47ff-abe5-a28af0868b6a",
+      "createdAt": "2026-02-09T09:06:18.064Z"
+    },
+    {
+      "tableId": "c585ddf4-1ff6-4d37-841d-f636785d7cdd",
+      "name": "email",
+      "dataType": "text",
+      "isNullable": true,
+      "defaultValue": null,
+      "position": 2,
+      "id": "367b42d2-30e3-4763-a9fd-7784ebc53fa6",
+      "createdAt": "2026-02-09T09:06:18.064Z"
+    },
+    {
+      "tableId": "c585ddf4-1ff6-4d37-841d-f636785d7cdd",
+      "name": "password",
+      "dataType": "text",
+      "isNullable": true,
+      "defaultValue": null,
+      "position": 3,
+      "id": "7d159414-48d3-460f-aad8-a9b7ae48940b",
+      "createdAt": "2026-02-09T09:06:18.064Z"
+    },
+    {
+      "tableId": "c585ddf4-1ff6-4d37-841d-f636785d7cdd",
+      "name": "status",
+      "dataType": "text",
+      "isNullable": true,
+      "defaultValue": null,
+      "position": 4,
+      "id": "0a304f2f-cb78-4c42-9590-8b60e6a0b6d3",
+      "createdAt": "2026-02-09T09:06:18.064Z"
+    },
+    {
+      "tableId": "c585ddf4-1ff6-4d37-841d-f636785d7cdd",
+      "name": "created_at",
+      "dataType": "text",
+      "isNullable": true,
+      "defaultValue": null,
+      "position": 5,
+      "id": "9b8abf00-e72f-4cf6-957e-e3228c9d4cb9",
+      "createdAt": "2026-02-09T09:06:18.064Z"
+    }
+  ],
+  "tableRows": [
+    {
+      "tableId": "c585ddf4-1ff6-4d37-841d-f636785d7cdd",
+      "data": {
+        "username": "gfxleader",
+        "email": "gfxdeveloperparvez@gmail.com",
+        "password": "$2y$10$WKZ5H.GAylZZt.1dLd26VORBfxKxn6xMqy60OC5ieWv/kyoqahLOa",
+        "created_at": "2026-02-09 12:07:10",
+        "id": "1",
+        "status": "active"
+      },
+      "id": "2d9b4d95-55b0-46f4-9c9c-cf37fd178e4a",
+      "createdAt": "2026-02-09T14:28:25.804Z",
+      "updatedAt": "2026-02-09T14:28:25.804Z"
+    }
+  ],
+  "apiKeys": [
+    {
+      "databaseId": "ac5c9253-f365-40e9-b0f7-6d5e04ca3336",
+      "userId": "7cc44f28-a86f-438a-98e3-0599b72c4588",
+      "name": "Default",
+      "keyValue": "6601cabf83074ff94f308cb424a280b5917dc0fe73bf4edda21c36c1eff7497f",
+      "isActive": true,
+      "id": "56567f24-b533-4c25-862e-37845298cc4a",
+      "createdAt": "2026-02-09T09:05:16.008Z",
+      "lastUsedAt": "2026-02-09T12:07:11.024Z"
+    }
+  ],
+  "queryLogs": [
+    {
+      "databaseId": "ac5c9253-f365-40e9-b0f7-6d5e04ca3336",
+      "userId": "7cc44f28-a86f-438a-98e3-0599b72c4588",
+      "method": "insert",
+      "endpoint": "/users",
+      "statusCode": 201,
+      "requestBody": {
+        "action": "insert",
+        "table": "users",
+        "filters": null
+      },
+      "responseTimeMs": 2,
+      "id": "d44a4ae7-52f7-490a-a2bc-50ac5b52b0ef",
+      "createdAt": "2026-02-09T12:07:11.014Z"
+    }
+  ]
+}
